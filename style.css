@@ -1,0 +1,18 @@
+ol {
+  --at-apply: list-decimal;
+}
+
+[layout="iframe"] {
+  position: absolute !important;
+  height: 134% !important;
+  width: 134% !important;
+  scale: 0.75 !important;
+  transform: translateX(-17%) translateY(-17%) !important;
+}
+
+[layout="intro-image-right"] > div:nth-child(1) {
+  --at-apply: pl-12 pr-0
+}
+[layout="intro-image-right"] > div:nth-child(2) {
+  --at-apply: ml-14 mr-0
+}
